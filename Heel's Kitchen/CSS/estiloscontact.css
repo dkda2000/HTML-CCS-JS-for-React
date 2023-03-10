@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+}
+
+.lineablanca{
+    padding-left: 2%; 
+    background-color: white;
+}
+
+.tablacontact{
+    margin-top: 10px;    
+}
+
+.tablaimagecontact{
+    padding-left: 2%; 
+    width: 50%;  
+}
+
+iframe{
+    border: solid 3px; 
+    border-color: white;
+}
+
+.cajacontact{
+    text-align: justify; 
+    width:40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+

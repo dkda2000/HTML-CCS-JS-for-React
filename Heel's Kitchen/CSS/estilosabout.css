@@ -1,0 +1,28 @@
+.lineablanca{
+    padding-left: 2%; 
+    background-color: white;
+}
+
+.tablabout{
+    margin-top: 10px;    
+}
+
+.tablaimageabout{
+    padding-left: 2%;    
+}
+
+.imageabout{
+    height: 16pc; 
+    border: solid 3px; 
+    border-color: white;    
+}
+
+.tablatextabout{
+    padding-left: 4%; 
+    padding-right: 2%; 
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size:large;
+    color:white;
+
+}

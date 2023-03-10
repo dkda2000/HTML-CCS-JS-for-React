@@ -1,0 +1,53 @@
+.lineablanca{
+    padding-left: 2%; 
+    background-color: white;
+}
+
+.mainh3{
+    color: #56aea3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+}
+
+.alineado{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tablareceta{
+    margin-top: 10px;    
+}
+
+.tablaimagereceta{
+    padding-left: 2%;    
+}
+
+.imagereceta{
+    height: 16pc; 
+    width: 25pc;
+    border: solid 3px; 
+    border-color: white;    
+}
+
+.tablatextreceta{
+    padding-left: 4%; 
+    padding-right: 2%; 
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size:large;
+    color:#613143;
+}
+
+.linkreceta{
+    text-align:right;
+}
+
+.botonira{
+    text-decoration: none;
+    color: #613162;
+    font-size:large;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid white;
+    border-radius: 20px 50px 50px 20px;
+    font-weight: bold;
+}

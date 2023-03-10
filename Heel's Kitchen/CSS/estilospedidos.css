@@ -1,0 +1,63 @@
+table{
+    width: 100%;
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.lineablanca{
+    padding-left: 2%; 
+    background-color: white;
+}
+
+
+.datospedido{
+    text-align: center;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.datosmarcar{
+    text-align: center;
+}
+
+.tituloformulariocentrado{
+    text-align: center;
+    background-color: white;
+    color: #56AEA3;
+}
+
+.boxcomentario{
+    text-align: center;
+    border: white 5px;
+}
+
+.botones{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=submit], input[type=reset]{
+    text-decoration: none;
+    color: #613162;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: white;
+    padding: 1%;
+    border: 0 solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 10pc;
+}
+
+input:invalid:required {
+    border: 2px rgb(44, 3, 44) solid;
+}
+
+input:valid {
+    border: 2px white solid;
+}

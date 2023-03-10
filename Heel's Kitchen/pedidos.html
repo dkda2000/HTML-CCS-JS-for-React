@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heel's Kitchen</title>
+
+    <link rel="shortcut icon" href="img/HeelsKitchenIco.ico">
+
+    <script src="https://kit.fontawesome.com/7b27addec7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/estilospedidos.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navheader">
+            
+            <a href="index.html" class="aheader1" target="_blank">Home</a>
+            <a href="about.html" class="aheader1 aheader2" target="_blank">Nosotros</a>
+            <a href="contact.html" class="aheader1" target="_blank">Contacto</a>
+            <a href="pedidos.html" class="aheader1 aheader3" target="_blank">Pedidos</a>
+
+            <br>
+            <br>
+
+        </nav>
+
+        <div class="header">
+           <div class="headername">
+                <div>
+                    <img src="img/HeelsLeft.svg" class="headericon">
+                </div>
+           
+                <div>
+                    <h1 class="headerh1"> HEEL'S KITCHEN </h1>
+                </div>
+
+                <div>
+                    <img src="img/HeelsRight.svg" class="headericon">
+                 </div>
+           </div>
+            
+        </div>
+        <br>
+        <br>    
+        <br>
+
+    </header>
+
+    <main>
+
+        <h2 class="mainh2">HAZNOS TU PEDIDO</h2>
+
+        <table>
+
+            <form action="showdata.html" method="get"> 
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿Cuál es tu nombre y apellido?</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datospedido" colspan="2">
+                        <br><br>
+                    <label for="Nombre" class="margenderecha">Nombre (*)</label>
+                    <input type="text" name="Nombre" id="Nombre" tabindex="1" placeholder="Ejemplo: Ezequiel" required >
+                        <br><br>
+                    <label for="Apellido" class="margenderecha">Apellido (*)</label>
+                    <input type="text" name="Apellido" id="Apellido" tabindex="4" placeholder="Ejemplo: Ventura" required>
+                        <br><br><br>
+                </td>
+        
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿Dónde deseas que enviemos tu pedido?</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datospedido" colspan="2">
+                        <br><br>
+                    <label for="Calle" class="margenderecha">Calle (*)</label>
+                    <input type="text" name="Calle" id="Calle" tabindex="2" placeholder="Ejemplo: Ca. Los Laureles" required>  
+                        <br><br>
+                    <label for="Altura" class="margenderecha">Altura (*)</label>
+                    <input type="number" name="Altura" id="Altura" tabindex="3" placeholder="Ejemplo: 645" required>
+                        <br><br><br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿Cuándo deseas que entreguemos tu pedido?</h3>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datospedido" colspan="2">
+                    <br><br>
+                    <label for="Fecha" class="margenderecha">Fecha (*)</label>
+                    <input type="date" name="Fecha" id="Fecha" tabindex="5" required>
+                    <br><br><br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+                    
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿En qué momento del día deseas tu pedido?</h3>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datospedido" colspan="2">
+                    <br><br>
+                    <label for="Turnos" class="margenderecha">Turnos (*)</label>
+                    <select name="Turnos" id="Turnos" required>
+                        <option value="B"></option>
+                        <option value="M">Mañana</option>
+                        <option value="T">Tarde</option>
+                        <option value="N">Noche</option>
+                    </select>
+                    <br><br><br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿Qué deseas incluir en tu pedido?</h3>
+                </td>
+
+            </tr>
+          
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+
+                <td class="datosmarcar" colspan="2">
+                    <br><br>
+                    <input type="checkbox" name="Pedido" value="sopadecalabaza" id="sopadecalabaza"> Sopa de Calabaza
+                    <input type="checkbox" name="Pedido" value="milanesas" id="milanesas"> Milanesas
+                    <input type="checkbox" name="Pedido" value="tortillapapas" id="tortillapapas"> Tortilla de Papas
+                    <br><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¿Deseas que enviemos cubiertos con tu pedido?</h3>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datosmarcar" colspan="2">
+                    <br><br>
+                    <input type="radio" name="Cubiertos" value="Si" id="Cubiertos" class="margenderecha"> Si
+                    <input type="radio" name="Cubiertos" value="No" id="CubiertosNo"> No
+                    <br><br><br>
+                </td>
+            
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¡Déjanos tu email para enviarte nuestras próximas promociones!</h3>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datospedido" colspan="2">
+                    <br><br>
+                    <label for="E-mail" class="margenderecha">E-mail</label>
+                    <input type="email" name="E-mail" id="E-mail" tabindex="1">
+                    <br><br><br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="tituloformulariocentrado" colspan="2">
+                    <h3>¡Déjanos un comentario!</h3>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="lineablanca" colspan="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="boxcomentario" colspan="2">
+                    <br><br>
+                    <textarea name="Comentario" id="Comentario" cols="80" rows="5" placeholder="Escribe aquí tu comentario..."></textarea>
+                    <br>
+    
+                </td>
+
+            </tr> 
+            
+            <tr>
+                <td class="botones" colspan="2">
+                <input type="submit" value="ENVIAR" class="margenderecha">
+                <input type="reset" value="CANCELAR" class="margenizquierda">
+
+                </td>
+
+            </tr> 
+                           
+        </form>
+
+        </table>
+
+    </main>
+
+    <footer>
+        
+        <nav class="navfooter">
+
+            <a href="https://www.instagram.com/?hl=es" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            
+            <a href="https://twitter.com/home" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <i class="fab fa-linkedin"> </i>
+            </a>
+            
+        </nav>
+          
+        <p class="pfooter"> Derechos Registrados 2023</p>
+
+    </footer>
+    
+</body>
+</html>
